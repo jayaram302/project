@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year 2025</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy New Year 2025! 🎉</h1>
+    <p>Wishing you a year filled with happiness, success, and good health!</p>
+    <button onclick="showFireworks()">🎆 Celebrate 🎆</button>
+    <div id="fireworks"></div>
+  </div>
+
+  <script>
+    function showFireworks() {
+      const fireworks = document.getElementById('fireworks');
+      fireworks.innerHTML = '';
+      for (let i = 0; i < 30; i++) {
+        const sparkle = document.createElement('div');
+        sparkle.classList.add('sparkle');
+        sparkle.style.left = `${Math.random() * 100}%`;
+        sparkle.style.animationDelay = `${Math.random() * 2}s`;
+        fireworks.appendChild(sparkle);
+      }
+    }
+  </script>
+</body>
+</html>
