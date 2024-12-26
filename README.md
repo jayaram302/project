@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎉 Happy New Year 2024! 🎆</h1>
+        <h1>🎉 Happy New Year 2025! 🎆</h1>
         <p class="message">Wishing you joy, success, and endless blessings!</p>
         <div class="decorations">
             <span>🎇</span>
